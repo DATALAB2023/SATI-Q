@@ -47,7 +47,7 @@ Las distintas tablas con datos están relacionadas por **3 campos claves: TIPODN
 Estos campos identifican unívocamente al paciente y su internación en todo el sistema.
 
 ## REPOSITORIO DE DATOS: 📁
-A los fines de este desafío se ponen a disposición las tablas que contienen datos en formato CSV (texto separado por comas). Aquellas que contienen códigos internos, además del formato CSV, se pueden consultar en los respectivos diccionarios de datos.
+A los fines de este desafío se ponen a disposición las tablas que contienen datos en formato CSV (texto separado por comas). Aquellas que contienen códigos internos, además del formato CSV, se pueden consultar en los respectivos diccionarios de datos. Algunas tablas pueden estar separadas por periodos, para ser mas agiles los procesos de consultas. 
 
 > [REPOSITORIO DE DATOS:](https://drive.google.com/drive/folders/1fTmRTHRpsRGUnIxlkTB1AN3tbH9kLnMQ?usp=drive_link)
 
