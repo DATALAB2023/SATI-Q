@@ -73,17 +73,7 @@ A continuación presentamos la descripción de cada tabla / archivo CSV del *DES
 | **FICOMPUTI**  | Contiene las complicaciones monitorizadas  que presentó el paciente durante su internación en la UCI (estándares de calidad monitorizados)  |  |
 | **FIPIM**  | Contiene las variables necesarias para construir el puntaje de predicción de mortalidad en UCIP PIM2. El score PIM 2 se calcula a partir de la información recolectada en el momento en que el paciente ingresa en la unidad de cuidados intensivos pediátricos (UCIP) o antes de iniciar el tratamiento intensivo.  | **(SOLO PEDIÁTRICOS)** |
 | **FIPIM3**  |  Contiene las variables necesarias para construir el puntaje de predicción de mortalidad en UCIP PIM3. El score PIM 3 se calcula a partir de la información recolectada en el momento en que el paciente ingresa en la unidad de cuidados intensivos pediátricos (UCIP) o antes de iniciar el tratamiento intensivo.  | **(SOLO PEDIÁTRICOS)** |
-| **FIPELOD**  | Contiene las variables necesarias para construir el puntaje Pelod 1. Se trata de un puntaje para evaluar el fallo orgánico en UCIP. Se registran los valores más anomalos de cada dia. | Content Cell |
-
-
-
-
-| **FIMOTINGP**  | Motivos de Ingreso (tanto adultos como pediátricos)  | Content Cell |
-| **FIMOTINGP**  | Motivos de Ingreso (tanto adultos como pediátricos)  | Content Cell |
-| **FIMOTINGP**  | Motivos de Ingreso (tanto adultos como pediátricos)  | Content Cell |
-| **FIMOTINGP**  | Motivos de Ingreso (tanto adultos como pediátricos)  | Content Cell |
-
-
-
-
+| **FIPELOD**  | Contiene las variables necesarias para construir el puntaje Pelod 1. Se trata de un puntaje para evaluar el fallo orgánico en UCIP. Se registran los valores más anomalos de cada dia. | **(SOLO PEDIÁTRICOS)** |
+| **FISOFA**  | Contiene las variables necesarias para construir el puntaje SOFA. Se trata de un puntaje para evaluar el fallo orgánico en UCI. Se registran los valores más anomalos de cada dia. | **(SOLO ADULTOS)** |
+| **FISOFA**  | Contiene las variables necesarias para construir el puntaje SOFA. Se trata de un puntaje para evaluar el fallo orgánico en UCI. Se registran los valores más anomalos de cada dia. | **(SOLO ADULTOS)** |
 
