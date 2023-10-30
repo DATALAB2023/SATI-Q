@@ -36,9 +36,8 @@ Para el análisis de los datos se recomienda utilizar alguna de las siguientes p
 
 ## PRESENTACIÓN DE RESULTADOS:
 	**REVISAR ESTA SECCION**
-Generar una presentación de no mas de 5 diapositivas, 5 minutos.
-INTRODUCCION, PREGUNTA, RESULTADOS
-Compartir códigos fuentes utilizados
++ Realizar una presentación de no más de 5 diapositivas, para exponer en no más de 5 minutos por equipo. Pueden descargar un *template modelo* para utilizar desde [AQUI](https://docs.google.com/presentation/d/1ifhpMzLD_AxdloG18gg8UqpvwOgekhl-/)
++ Compartir los códigos fuentes generados en el GITHUB del desafio SATI-Q, dentro de la carpeta correspondiente a cada equipo. 
 
 ## ESTRUCTURA DE DATOS
 La base de datos SATI-Q (adultos y pediátrica) está compuesta de 2 tipos de tablas: 
@@ -68,7 +67,7 @@ A continuación presentamos la descripción de cada tabla / archivo CSV del *DES
 | **FIMOTINGD_ANTECEDENTES)**  | Contiene todos los *ANTECEDENTES* presentes al ingreso de la UCIP. Pueden haber varios registros por episodio | **(SOLO ADULTOS)** |
 | **FIPRACTICAFOLEY**  | Contiene datos referentes a las sondas vesicales que el paciente tuvo colocadas durante su internación en la UCI. Puede registrarse más de un episodio de sondaje vesical por paciente |  |
 | **FIPRACTICAARM**  | Contiene datos referentes a los episodios de ventilación mecánica o apoyo respiratorio que recibió el paciente en la UCI. Incluye ventilación mecánica invasiva, no invasiva y CAFO. Se registra una fila por cada episodio de ventilación mecánica. | *ARM_COMPL, ARM_MOTIVO, ARM_UTIL* |
-| **FIPROC**  | Contiene los procedimientos que se realizaron al paciente durante su internación en la UCIP. Puede registrarse más de un procedimiento por paciente, lo cual generará varias filas para el mismo registro de internación. | Content Cell |
+| **FIPROC**  | Contiene los procedimientos que se realizaron al paciente durante su internación en la UCIP. Puede registrarse más de un procedimiento por paciente, lo cual generará varias filas para el mismo registro de internación. |  |
 | **FIMOTINGP**  | Motivos de Ingreso (tanto adultos como pediátricos)  | Content Cell |
 | **FIMOTINGP**  | Motivos de Ingreso (tanto adultos como pediátricos)  | Content Cell |
 | **FIMOTINGP**  | Motivos de Ingreso (tanto adultos como pediátricos)  | Content Cell |
