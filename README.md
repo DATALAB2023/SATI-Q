@@ -1,4 +1,4 @@
-![image](https://github.com/DATALAB2023/SATI-Q/assets/148904526/bd21dc86-5fd9-4b92-a29e-927e6102a30f)![LOGO DATATHON BA 2023 ICO](https://github.com/DATALAB2023/SATI-Q/assets/148904526/6fee3fe3-f7a3-469f-99a0-766d3895b986)
+![LOGO DATATHON BA 2023 ICO](https://github.com/DATALAB2023/SATI-Q/assets/148904526/ff185c75-a59c-4d94-a4dd-2622d31d8fa0)
 
 # ![LOGO CUADRADO SATIQ ICO](https://github.com/DATALAB2023/SATI-Q/assets/148904526/d67eeb09-d63c-40d3-87d2-71c903c134c1) DESAFIO DATATHON: SATI-Q 
 *SATI-Q 20 AÑOS: Analicemos juntos 2 décadas de datos de cuidados intensivos en Argentina*
