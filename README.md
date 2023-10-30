@@ -1,4 +1,4 @@
-![LOGO DATATHON BA 2023 ICO](https://github.com/DATALAB2023/SATI-Q/assets/148904526/6fee3fe3-f7a3-469f-99a0-766d3895b986)
+![image](https://github.com/DATALAB2023/SATI-Q/assets/148904526/bd21dc86-5fd9-4b92-a29e-927e6102a30f)![LOGO DATATHON BA 2023 ICO](https://github.com/DATALAB2023/SATI-Q/assets/148904526/6fee3fe3-f7a3-469f-99a0-766d3895b986)
 
 # ![LOGO CUADRADO SATIQ ICO](https://github.com/DATALAB2023/SATI-Q/assets/148904526/d67eeb09-d63c-40d3-87d2-71c903c134c1) DESAFIO DATATHON: SATI-Q 
 *SATI-Q 20 AÑOS: Analicemos juntos 2 décadas de datos de cuidados intensivos en Argentina*
@@ -35,7 +35,7 @@ Para el análisis de los datos se recomienda utilizar alguna de las siguientes p
 + Google Collab: https://colab.research.google.com/?hl=es
 
 ## PRESENTACIÓN DE RESULTADOS:📑
-	**REVISAR ESTA SECCION**
+	**REVISAR Y CONFIRMAR CON ORGANIZACION DATA+LAB 2023**
 + Por equipo, realizar una presentación de no más de 5 diapositivas, para exponer en no más de 5 minutos. Pueden descargar un *template modelo* para utilizar desde [AQUI](https://docs.google.com/presentation/d/1ifhpMzLD_AxdloG18gg8UqpvwOgekhl-/)
 + Compartir los códigos fuentes generados en el GITHUB del desafio SATI-Q, dentro de la carpeta correspondiente a cada equipo. 
 
@@ -65,15 +65,24 @@ A continuación presentamos la descripción de cada tabla / archivo CSV del *DES
 | **FIMOTINGD_PRINCIPAL**  | Contiene todos los diagnósticos *PRINCIPALES* presentes al ingreso de la UCIP. Un registro por episodio. | **(SOLO ADULTOS)** |
 | **FIMOTINGD_DIAGNOSTICO)**  | Contiene todos los diagnósticos *SECUNDARIOS* presentes al ingreso de la UCIP. Pueden haber varios registros por episodio. | **(SOLO ADULTOS)** |
 | **FIMOTINGD_ANTECEDENTES)**  | Contiene todos los *ANTECEDENTES* presentes al ingreso de la UCIP. Pueden haber varios registros por episodio | **(SOLO ADULTOS)** |
+| **FIPRACTICACVC**  | Contiene datos referentes a los catéteres venosos centrales que el paciente tuvo colocados durante su internación en la UCI. Incluye catéteres venosos centrales y catéteres arteriales. Se registra una fila por cada CVC o arterial que tuvo colocada en la UCI  | *CVC_MOTIVOS* |
 | **FIPRACTICAFOLEY**  | Contiene datos referentes a las sondas vesicales que el paciente tuvo colocadas durante su internación en la UCI. Puede registrarse más de un episodio de sondaje vesical por paciente |  |
 | **FIPRACTICAARM**  | Contiene datos referentes a los episodios de ventilación mecánica o apoyo respiratorio que recibió el paciente en la UCI. Incluye ventilación mecánica invasiva, no invasiva y CAFO. Se registra una fila por cada episodio de ventilación mecánica. | *ARM_COMPL, ARM_MOTIVO, ARM_UTIL* |
 | **FIPROC**  | Contiene los procedimientos que se realizaron al paciente durante su internación en la UCIP. Puede registrarse más de un procedimiento por paciente, lo cual generará varias filas para el mismo registro de internación. |  |
+| **FIEVOLUTI**  | Contiene los nuevos diagnósticos que presentó el paciente durante su internación en la UCIP. No estaban presentes al ingreso. Puede registrarse más de un nuevo diagnóstico por paciente, lo cual generará varias filas para el mismo paciente. |  |
+| **FICOMPUTI**  | Contiene las complicaciones monitorizadas  que presentó el paciente durante su internación en la UCI (estándares de calidad monitorizados)  |  |
+| **FIPIM**  | Contiene las variables necesarias para construir el puntaje de predicción de mortalidad en UCIP PIM2. El score PIM 2 se calcula a partir de la información recolectada en el momento en que el paciente ingresa en la unidad de cuidados intensivos pediátricos (UCIP) o antes de iniciar el tratamiento intensivo.  | **(SOLO PEDIÁTRICOS)** |
+| **FIPIM3**  |  Contiene las variables necesarias para construir el puntaje de predicción de mortalidad en UCIP PIM3. El score PIM 3 se calcula a partir de la información recolectada en el momento en que el paciente ingresa en la unidad de cuidados intensivos pediátricos (UCIP) o antes de iniciar el tratamiento intensivo.  | **(SOLO PEDIÁTRICOS)** |
+| **FIPELOD**  | Contiene las variables necesarias para construir el puntaje Pelod 1. Se trata de un puntaje para evaluar el fallo orgánico en UCIP. Se registran los valores más anomalos de cada dia. | Content Cell |
+
+
+
+
 | **FIMOTINGP**  | Motivos de Ingreso (tanto adultos como pediátricos)  | Content Cell |
 | **FIMOTINGP**  | Motivos de Ingreso (tanto adultos como pediátricos)  | Content Cell |
 | **FIMOTINGP**  | Motivos de Ingreso (tanto adultos como pediátricos)  | Content Cell |
 | **FIMOTINGP**  | Motivos de Ingreso (tanto adultos como pediátricos)  | Content Cell |
-| **FIMOTINGP**  | Motivos de Ingreso (tanto adultos como pediátricos)  | Content Cell |
-| **FIMOTINGP**  | Motivos de Ingreso (tanto adultos como pediátricos)  | Content Cell |
+
 
 
 
