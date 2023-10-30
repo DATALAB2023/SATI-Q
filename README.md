@@ -34,26 +34,26 @@ Para el análisis de los datos se recomienda utilizar alguna de las siguientes p
 + Visual Code: https://code.visualstudio.com/
 + Google Collab: https://colab.research.google.com/?hl=es
 
-## PRESENTACIÓN DE RESULTADOS:
+## PRESENTACIÓN DE RESULTADOS:📑
 	**REVISAR ESTA SECCION**
-+ Realizar una presentación de no más de 5 diapositivas, para exponer en no más de 5 minutos por equipo. Pueden descargar un *template modelo* para utilizar desde [AQUI](https://docs.google.com/presentation/d/1ifhpMzLD_AxdloG18gg8UqpvwOgekhl-/)
++ Por equipo, realizar una presentación de no más de 5 diapositivas, para exponer en no más de 5 minutos. Pueden descargar un *template modelo* para utilizar desde [AQUI](https://docs.google.com/presentation/d/1ifhpMzLD_AxdloG18gg8UqpvwOgekhl-/)
 + Compartir los códigos fuentes generados en el GITHUB del desafio SATI-Q, dentro de la carpeta correspondiente a cada equipo. 
 
-## ESTRUCTURA DE DATOS
+## ESTRUCTURA DE DATOS: :card_index:
 La base de datos SATI-Q (adultos y pediátrica) está compuesta de 2 tipos de tablas: 
 + 1-tablas que contienen datos de los episodios de internaciones
 + 2-tablas que contienen códigos internos
 Las distintas tablas con datos están relacionadas por **3 campos claves: TIPODNI, DNI, FECING.**
 Estos campos identifican unívocamente al paciente y su internación en todo el sistema.
 
-## REPOSITORIO DE DATOS
+## REPOSITORIO DE DATOS: 📁
 A los fines de este desafío se ponen a disposición las tablas que contienen datos en formato CSV (texto separado por comas). Aquellas que contienen códigos internos, además del formato CSV, se pueden consultar en los respectivos diccionarios de datos.
 
 > [REPOSITORIO DE DATOS:](https://drive.google.com/drive/folders/1fTmRTHRpsRGUnIxlkTB1AN3tbH9kLnMQ?usp=drive_link)
 
-Dentro de este *REPOSITORIO*, se disponen de dos carpetas que incluyen las tablas para utilizar en este Desafío: **SATIQ-ADULTOS y SATIQ-PEDIATRICOS**. Allí mismo también encontrará el diccionario de datos, dentro de su respectiva carpeta.
+Dentro de este *REPOSITORIO*, se disponen dos carpetas que incluyen las tablas para utilizar en este Desafío: **SATIQ-ADULTOS y SATIQ-PEDIATRICOS**. Allí mismo también encontrará el diccionario de datos, dentro de su respectiva carpeta.
 
-### ÍNDICE RÁPIDO DE TABLAS EN SATI-Q
+### ÍNDICE RÁPIDO DE TABLAS EN SATI-Q: 	:pushpin:
 
 A continuación presentamos la descripción de cada tabla / archivo CSV del *DESAFIO SATI-Q*, incluyendo los códigos internos relacionados. Estos códigos internos se presentan en tambien en su respectiva carpeta y además están referenciados dentro del diccionario de datos.
 
