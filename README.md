@@ -41,9 +41,9 @@ INTRODUCCION, PREGUNTA, RESULTADOS
 Compartir códigos fuentes utilizados
 
 ## ESTRUCTURA DE DATOS
-La base de datos SATI-Q (adultos y pediátrica) está compuesta de 2 tipos de tablas : 
-+1-tablas que contienen datos de los episodios de internaciones
-2-tablas que contienen códigos internos
+La base de datos SATI-Q (adultos y pediátrica) está compuesta de 2 tipos de tablas: 
++ 1-tablas que contienen datos de los episodios de internaciones
++ 2-tablas que contienen códigos internos
 Las distintas tablas con datos están relacionadas por **3 campos claves: TIPODNI, DNI, FECING.**
 Estos campos identifican unívocamente al paciente y su internación en todo el sistema.
 
@@ -52,9 +52,29 @@ A los fines de este desafío se ponen a disposición las tablas que contienen da
 
 > [REPOSITORIO DE DATOS:](https://drive.google.com/drive/folders/1fTmRTHRpsRGUnIxlkTB1AN3tbH9kLnMQ?usp=drive_link)
 
-Dentro de este REPOSITORIO , se disponen de dos carpetas que incluyen las tablas para utilizar en este Desafío: SATIQ-ADULTOS y SATIQ-PEDIATRICOS. .  Allí mismo también encontrará el diccionario de datos.
+Dentro de este *REPOSITORIO*, se disponen de dos carpetas que incluyen las tablas para utilizar en este Desafío: **SATIQ-ADULTOS y SATIQ-PEDIATRICOS**. Allí mismo también encontrará el diccionario de datos, dentro de su respectiva carpeta.
 
+### ÍNDICE RÁPIDO DE TABLAS EN SATI-Q
 
+A continuación presentamos la descripción de cada tabla / archivo CSV del *DESAFIO SATI-Q*, incluyendo los códigos internos relacionados. Estos códigos internos se presentan en tambien en su respectiva carpeta y además están referenciados dentro del diccionario de datos.
+
+| Tablas de Datos  | Descripción | Códigos internos |
+| ------------- | ------------- | :-------------: |
+| **FIVARAPA**  | Tabla principal para todos los pacientes (adultos y pediátricos). Contiene un resúmen de la evolución del paciente, datos demográficos, procedencia, uso de dispositivos, estadía y resultados. Cada fila / registro representa a una única internación. Además almacena el Puntaje APACHE II en los pacientes adultos. | *FIVARAPA_PATOLOGIA (SOLO ADULTOS), FIVARAPA_CATKNAUS (SOLO ADULTOS), FIVARAPA_COMORBIL (SOLO ADULTOS), FIVARAPA_TIPO, FIVARAPA_PROCEDENCIA, FIVARAPA_RESTRAT*|
+| **FIMOTINGP**  | Contiene la categoría diagnóstica presentada al ingreso de la UCI. Se permite una sola categoría por ingreso |  |
+| **FIMOTINGD**  | Contiene todos los diagnósticos presentes al ingreso de la UCIP. Se puede registrar uno o más por internación. Contiene el Diagnostico Principal (un registro por episodio), los Antecedentes (pueden haber varios registros por episodio) y Otros Diagnosticos al Ingreso (tambien pueden haber varios registros por episodio). | **(SOLO PEDIÁTRICOS)** |
+| **FIMOTINGD_PRINCIPAL**  | Contiene todos los diagnósticos *PRINCIPALES* presentes al ingreso de la UCIP. Un registro por episodio. | **(SOLO ADULTOS)** |
+| **FIMOTINGD_DIAGNOSTICO)**  | Contiene todos los diagnósticos *SECUNDARIOS* presentes al ingreso de la UCIP. Pueden haber varios registros por episodio. | **(SOLO ADULTOS)** |
+| **FIMOTINGD_ANTECEDENTES)**  | Contiene todos los *ANTECEDENTES* presentes al ingreso de la UCIP. Pueden haber varios registros por episodio | **(SOLO ADULTOS)** |
+| **FIPRACTICAFOLEY**  | Contiene datos referentes a las sondas vesicales que el paciente tuvo colocadas durante su internación en la UCI. Puede registrarse más de un episodio de sondaje vesical por paciente |  |
+| **FIPRACTICAARM**  | Contiene datos referentes a los episodios de ventilación mecánica o apoyo respiratorio que recibió el paciente en la UCI. Incluye ventilación mecánica invasiva, no invasiva y CAFO. Se registra una fila por cada episodio de ventilación mecánica. | *ARM_COMPL, ARM_MOTIVO, ARM_UTIL* |
+| **FIPROC**  | Contiene los procedimientos que se realizaron al paciente durante su internación en la UCIP. Puede registrarse más de un procedimiento por paciente, lo cual generará varias filas para el mismo registro de internación. | Content Cell |
+| **FIMOTINGP**  | Motivos de Ingreso (tanto adultos como pediátricos)  | Content Cell |
+| **FIMOTINGP**  | Motivos de Ingreso (tanto adultos como pediátricos)  | Content Cell |
+| **FIMOTINGP**  | Motivos de Ingreso (tanto adultos como pediátricos)  | Content Cell |
+| **FIMOTINGP**  | Motivos de Ingreso (tanto adultos como pediátricos)  | Content Cell |
+| **FIMOTINGP**  | Motivos de Ingreso (tanto adultos como pediátricos)  | Content Cell |
+| **FIMOTINGP**  | Motivos de Ingreso (tanto adultos como pediátricos)  | Content Cell |
 
 
 
