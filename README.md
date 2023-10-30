@@ -51,7 +51,7 @@ A los fines de este desafío se ponen a disposición las tablas que contienen da
 
 > [REPOSITORIO DE DATOS:](https://drive.google.com/drive/folders/1fTmRTHRpsRGUnIxlkTB1AN3tbH9kLnMQ?usp=drive_link)
 
-Dentro de este *REPOSITORIO*, se disponen dos carpetas que incluyen las tablas para utilizar en este Desafío: **SATIQ-ADULTOS y SATIQ-PEDIATRICOS**. Allí mismo también encontrará el diccionario de datos, dentro de su respectiva carpeta.
+Dentro de este *REPOSITORIO*, se disponen dos carpetas que incluyen las tablas para utilizar en este Desafío: **SATIQ-ADULTOS y SATIQ-PEDIATRICOS**. Allí mismo también encontrará el **diccionario de datos**, dentro de su respectiva carpeta.
 
 ### ÍNDICE RÁPIDO DE TABLAS EN SATI-Q: 	:pushpin:
 
