@@ -20,7 +20,7 @@ El principal objetivo es reconocer el valor de la información generada durante 
 + Guardia vs Sala : ¿la procedencia afecta la evolución de los pacientes en UCI / UCIP?
 + ¿Podemos predecir la infección asociada a dispositivos en el paciente crítico?
 
-## CONTEXTO:📚
+## CONTEXTO:🏥 ⚕️
 El Programa de Calidad SATI- Q es una **red multicéntrica de registro prospectivo y permanente de indicadores de calidad (Quality Benchmarking) en Unidades de Cuidados Intensivos de Argentina**, llevado adelante por la Sociedad Argentina de Terapia Intensiva (SATI). Las Unidades participan enviando voluntariamente sus registros en forma anónima y estandarizada. También disponen de un soporte informático de distribución libre, el Software SATI-Q, que permite el uso integrado a la práctica asistencial y la generación de informes personalizables. 
 > Para mas información: https://www.satiq.net.ar/
   
@@ -76,5 +76,5 @@ A continuación presentamos la descripción de cada tabla / archivo CSV del *DES
 | **FIPELOD**  | Contiene las variables necesarias para construir el puntaje Pelod 1. Se trata de un puntaje para evaluar el fallo orgánico en UCIP. Se registran los valores más anomalos de cada dia. | **(SOLO PEDIÁTRICOS)** |
 | **FISOFA**  | Contiene las variables necesarias para construir el puntaje SOFA. Se trata de un puntaje para evaluar el fallo orgánico en UCI. Se registran los valores más anomalos de cada dia. | **(SOLO ADULTOS)** |
 
-## ALGUNA BIBLIOGRAFIA COMPLEMENTARIA 
-## EJEMPLOS DE CODIGO Y MATERIAL AUXILIAR
+## ALGUNA BIBLIOGRAFIA COMPLEMENTARIA 📚
+## EJEMPLOS DE CODIGO Y MATERIAL AUXILIAR 🧰
