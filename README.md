@@ -76,3 +76,5 @@ A continuación presentamos la descripción de cada tabla / archivo CSV del *DES
 | **FIPELOD**  | Contiene las variables necesarias para construir el puntaje Pelod 1. Se trata de un puntaje para evaluar el fallo orgánico en UCIP. Se registran los valores más anomalos de cada dia. | **(SOLO PEDIÁTRICOS)** |
 | **FISOFA**  | Contiene las variables necesarias para construir el puntaje SOFA. Se trata de un puntaje para evaluar el fallo orgánico en UCI. Se registran los valores más anomalos de cada dia. | **(SOLO ADULTOS)** |
 
+## ALGUNA BIBLIOGRAFIA COMPLEMENTARIA 
+## EJEMPLOS DE CODIGO Y MATERIAL AUXILIAR
