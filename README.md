@@ -4,7 +4,7 @@
 *SATI-Q 20 AÑOS: Analicemos juntos 2 décadas de datos de cuidados intensivos en Argentina*
 
 ## DESCRIPCIÓN:📊
-En este desafío, exploraremos el potencial de la Ciencia de Datos y la Inteligencia Artificial como herramientas para identificar el perfil epidemiológico y detectar oportunidades de mejora en la calidad de atención de pacientes, adultos y pediátricos, internados en Unidades de Cuidado Intensivo en Argentina.
+En este desafío, exploraremos el potencial de la Ciencia de Datos y la Inteligencia Artificial como herramientas para identificar el perfil epidemiológico y detectar oportunidades de mejora en la calidad de atención de pacientes, adultos y pediátricos, internados en Unidades de Cuidados Intensivos en Argentina.
  
 ## OBJETIVO DEL DESAFÍO:🏆
 El principal objetivo es reconocer el valor de la información generada durante los procesos de atención de los pacientes en Cuidados Intensivos y la importancia del análisis de registros de datos estandarizados y multicéntricos para generar conocimiento. Para lograrlo, se espera que los participantes puedan responder a una pregunta de investigación relevante. Como ejemplos de puntos de partida, pero no limitantes, compartimos las siguientes preguntas Inspiradoras:
@@ -13,7 +13,7 @@ El principal objetivo es reconocer el valor de la información generada durante 
 + ¿Cómo son los pacientes que requieren Cuidados Intermedios o tercer nivel post UCI o UCIP?  
 + ¿Es el reingreso a la UCI- UCIP un factor pronóstico de mala evolución? ¿ Cuáles son sus factores de riesgo?
 + ¿El género es un factor que afecta los resultados en UCIP / UCI?
-+ ¿Por Qué una mujer joven requiere Cuidados Intensivos? ¿Son distintas las causas de ingresos a las de los hombres?
++ ¿Por Qué una mujer joven requiere Cuidados Intensivos? ¿Son distintas las causas de ingreso a las de los hombres?
 + Uso de dispositivos en UCI y UCIP: ¿Existen diferencias entre  el grado de invasión de niños y adultos críticamente enfermos?
 + Mortalidad en pacientes de bajo riesgo en UCI / UCIP : perfil epidemiológico, factores de riesgo , predicción
 + Tiempo entre ingreso al hospital e ingreso a Cuidados Intensivos : ¿influye en la mortalidad en UCI- UCIP?
@@ -24,7 +24,7 @@ El principal objetivo es reconocer el valor de la información generada durante 
 El Programa de Calidad SATI- Q es una **red multicéntrica de registro prospectivo y permanente de indicadores de calidad (Quality Benchmarking) en Unidades de Cuidados Intensivos de Argentina**, llevado adelante por la Sociedad Argentina de Terapia Intensiva (SATI). Las Unidades participan enviando voluntariamente sus registros en forma anónima y estandarizada. También disponen de un soporte informático de distribución libre, el Software SATI-Q, que permite el uso integrado a la práctica asistencial y la generación de informes personalizables. 
 > Para mas información: https://www.satiq.net.ar/
   
-Los datos que forman parte de este desafío son una muestra anonimizada y curada de la base de pacientes adultos y pediátricos de SATI-Q
+Los datos que forman parte de este desafío son una muestra anonimizada y curada de la base de datos SATI-Q con registros de pacientes adultos y pediátricos internados en las Unidades participantes en el Programa.
 
 ## PRERREQUISITOS: :hammer_and_wrench:
 Todos los miembros del equipo deben haber firmado [el acuerdo de confidencialidad y uso de datos:](https://forms.gle/GqhdWrTAu9a9hVhi7)
