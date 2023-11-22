@@ -1,6 +1,6 @@
 ![LOGO DATATHON BA 2023 ICO](Banner.datathon.JPG)
 
-# DESAFIO DATATHON: SATI-Q 
+# DATATHON: DESAFÍO SATI-Q 
 *SATI-Q 20 AÑOS: Analicemos juntos 2 décadas de datos de cuidados intensivos en Argentina*
 
 ## DESCRIPCIÓN:📊
