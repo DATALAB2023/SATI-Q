@@ -52,7 +52,7 @@ Estos campos identifican unívocamente al paciente y su internación en todo el 
 ## REPOSITORIO DE DATOS: 📁
 A los fines de este desafío se ponen a disposición las tablas que contienen datos en formato CSV (texto separado por comas). Aquellas que contienen códigos internos, además del formato CSV, se pueden consultar en los respectivos diccionarios de datos. Algunas tablas pueden estar separadas por periodos, para ser mas agiles los procesos de consultas. 
 
-> [REPOSITORIO DE DATOS:](https://drive.google.com/drive/folders/1fTmRTHRpsRGUnIxlkTB1AN3tbH9kLnMQ?usp=drive_link)
+ [REPOSITORIO DE DATOS:](https://drive.google.com/drive/folders/1fTmRTHRpsRGUnIxlkTB1AN3tbH9kLnMQ?usp=drive_link)
 
 Dentro de este *REPOSITORIO*, se disponen dos carpetas que incluyen las tablas para utilizar en este Desafío: **SATIQ-ADULTOS y SATIQ-PEDIATRICOS**. Allí mismo también encontrará el **diccionario de datos**, dentro de su respectiva carpeta.
 
@@ -87,4 +87,6 @@ Pueden descargarlo de este enlace https://www.hardineros.ar/analisis-secundario-
 
 
 ## EJEMPLOS DE CÓDIGO Y MATERIAL AUXILIAR 🧰
+
+https://drive.google.com/file/d/1UBwSFOKZsgXw_d2HYvxlb-1MQrFVvej-/view?usp=drive_link
 
