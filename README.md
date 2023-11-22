@@ -89,6 +89,6 @@ Pueden descargarlo de este enlace https://www.hardineros.ar/analisis-secundario-
 
 ## EJEMPLOS DE CÓDIGO Y MATERIAL AUXILIAR 🧰
 
-En esta carpeta encontrarás ejemplos de código para realizar exploración de los datos , limpieza , manipulación
-[Codigo]https://drive.google.com/file/d/1UBwSFOKZsgXw_d2HYvxlb-1MQrFVvej-/view?usp=drive_link
-
+En esta carpeta encontrarás ejemplos de código para realizar exploración , limpieza y manipulación de los datos
+[Código](https://drive.google.com/file/d/1UBwSFOKZsgXw_d2HYvxlb-1MQrFVvej-/view?usp=drive_link)
+ [REPOSITORIO DE DATOS:](https://drive.google.com/drive/folders/1fTmRTHRpsRGUnIxlkTB1AN3tbH9kLnMQ?usp=drive_link)
