@@ -31,7 +31,7 @@ Todos los miembros del equipo deben haber firmado [el acuerdo de confidencialida
   
 Para el análisis de los datos se recomienda utilizar alguna de las siguientes plataformas:
 + R-STUDIO:  https://posit.co/download/rstudio-desktop/
-+ Visual Code: https://code.visualstudio.com/
++ Visual Code Studio: https://code.visualstudio.com/
 + Google Collab: https://colab.research.google.com/?hl=es
 
 ## PRESENTACIÓN DE RESULTADOS:📑
