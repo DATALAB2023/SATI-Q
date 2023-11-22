@@ -109,6 +109,7 @@ En esta [Carpeta](https://drive.google.com/drive/folders/1qggMSZA0SFlRhgMZZuq3JV
 encontrarás ejemplos de código para realizar exploración , limpieza y manipulación de los datos y mucho más
 
 1- DESAFIO_SATI_Q.ipynb : notebook en phyton que contiene código para leer , explorar , limpiar datos, crear variables ,etc
+
 2- Archivo convert.js : script para unificar filas. Leer  el archivo convertjs_instrucciones.txt para ver cómo funciona. La tabla para usar en este ejemplo es FiPracticaCVC.csv
 
 
