@@ -82,13 +82,30 @@ A continuación presentamos la descripción de cada tabla / archivo CSV del *DES
 
 ## BIBLIOGRAFIA COMPLEMENTARIA 📚
 
-Libro:  **Análisis Secundario de Historias Clínicas Electrónicas**
+**Libro**:  [Análisis Secundario de Historias Clínicas Electrónicas](https://www.hardineros.ar/analisis-secundario-de-historias-clinicas-electronicas)
 
-Pueden descargarlo de este enlace https://www.hardineros.ar/analisis-secundario-de-historias-clinicas-electronicas
+*Versión traducida al español de la obra Secondary Analysis of Electronic Health Records*
+
+Autores: Leo A Celi - MIT CRITICAL DATA; Equipo de traducción dirigido por Ariel Fernández, Maria del Pilar Arias y Juan Sebastián Osorio
 
 
 ## EJEMPLOS DE CÓDIGO Y MATERIAL AUXILIAR 🧰
 
-En esta carpeta encontrarás ejemplos de código para realizar exploración , limpieza y manipulación de los datos
-[Código](https://drive.google.com/file/d/1UBwSFOKZsgXw_d2HYvxlb-1MQrFVvej-/view?usp=drive_link)
- [REPOSITORIO DE DATOS:](https://drive.google.com/drive/folders/1fTmRTHRpsRGUnIxlkTB1AN3tbH9kLnMQ?usp=drive_link)
+Libreriás de Phyton más utilizadas en Ciencia de datos y documentación: 
+
+1-Pandas [https://pandas.pydata.org/docs/user_guide/index.html ]. Libreria de manipulación y análisis de datos estructurados
+
+2-Numpy [https://numpy.org/doc/stable/user ]. Es una libreria de Algebra Lineal (Vectores y Matrices)
+
+3-Matplotlib [https://matplotlib.org/ ]. Libreria de visualización
+
+4-Seaborn [https://seaborn.pydata.org/]. Libreria de visualización
+
+5-Plotly. [https://plotly.com/python-api-reference/]. Libreria de visualización
+
+6- Scikit learn.[https://scikit-learn.org/stable/]. Libreria para aprendizaje automático ( regresión, clasificación, clustering, preprocesamiento, etc)
+
+En esta [Carpeta](https://drive.google.com/drive/folders/1qggMSZA0SFlRhgMZZuq3JVB8HD6a_0FL?usp=drive_link)
+encontrarás ejemplos de código para realizar exploración , limpieza y manipulación de los datos 
+
+ 
