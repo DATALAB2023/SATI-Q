@@ -25,7 +25,8 @@ Como ejemplos de puntos de partida, pero no limitantes, compartimos las siguient
 ## CONTEXTO:🏥 ⚕️
 El Programa de Calidad SATI- Q es una **red multicéntrica de registro prospectivo y permanente de indicadores de calidad (Quality Benchmarking) en Unidades de Cuidados Intensivos de Argentina**, llevado adelante por la Sociedad Argentina de Terapia Intensiva (SATI). 
 El Programa es voluntario y abierto para UCI y UCIP con distinto nivel de complejidad e infraestructura,  tanto del ámbito público como privado. Las Unidades participan enviando los registros de internaciones en forma anónima y estandarizada una vez por año. Para el registro de datos , disponen de un soporte informático de distribución libre, el Software SATI-Q, que permite la generación de informes automátizados y se encuentra adaptado en la practica diaria y asistencial. 
-> Para mas información pueden consultar la página web del Programa : https://www.satiq.net.ar/
+
+Para mas información pueden consultar la página web del Programa : https://www.satiq.net.ar/
   
 Los datos que forman parte de este desafío son una muestra anonimizada y curada de la base de datos SATI-Q con registros de pacientes adultos y pediátricos internados en las Unidades participantes en el Programa.
 Los registros comprenden datos de egresos entre 1-1-2002 y 31-12-2022. La base de datos pediátrica contiene egresos entre 1-1-2005 y el 31-12-2022
@@ -88,5 +89,6 @@ Pueden descargarlo de este enlace https://www.hardineros.ar/analisis-secundario-
 
 ## EJEMPLOS DE CÓDIGO Y MATERIAL AUXILIAR 🧰
 
-https://drive.google.com/file/d/1UBwSFOKZsgXw_d2HYvxlb-1MQrFVvej-/view?usp=drive_link
+En esta carpeta encontrarás ejemplos de código para realizar exploración de los datos , limpieza , manipulación
+[Codigo]https://drive.google.com/file/d/1UBwSFOKZsgXw_d2HYvxlb-1MQrFVvej-/view?usp=drive_link
 
