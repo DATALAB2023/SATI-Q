@@ -81,8 +81,10 @@ A continuación presentamos la descripción de cada tabla / archivo CSV del *DES
 
 ## BIBLIOGRAFIA COMPLEMENTARIA 📚
 
-Libro Análisis Secundario de Historias Clínicas Electrónicas
-Pueden descargarlo de https://www.hardineros.ar/analisis-secundario-de-historias-clinicas-electronicas
+Libro:  **Análisis Secundario de Historias Clínicas Electrónicas**
+
+Pueden descargarlo de este enlace https://www.hardineros.ar/analisis-secundario-de-historias-clinicas-electronicas
 
 
-## EJEMPLOS DE CODIGO Y MATERIAL AUXILIAR 🧰
+## EJEMPLOS DE CÓDIGO Y MATERIAL AUXILIAR 🧰
+
