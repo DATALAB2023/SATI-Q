@@ -4,14 +4,16 @@
 *SATI-Q 20 AÑOS: Analicemos juntos 2 décadas de datos de cuidados intensivos en Argentina*
 
 ## DESCRIPCIÓN:📊
-En este desafío, exploraremos el potencial de la Ciencia de Datos y la Inteligencia Artificial como herramientas para identificar el perfil epidemiológico y detectar oportunidades de mejora en la calidad de atención de pacientes, adultos y pediátricos, internados en Unidades de Cuidados Intensivos en Argentina.
+En este desafío, exploraremos el potencial de la Ciencia de Datos y la Inteligencia Artificial como herramientas para identificar el perfil epidemiológico de los pacientes críticos y detectar oportunidades de mejora en la calidad de atención en las Unidades de Cuidados Intensivos de adultos y pediátricas en Argentina.
  
 ## OBJETIVO DEL DESAFÍO:🏆
-El principal objetivo es reconocer el valor de la información generada durante los procesos de atención de los pacientes en Cuidados Intensivos y la importancia del análisis de registros de datos estandarizados y multicéntricos para generar conocimiento. Para lograrlo, se espera que los participantes puedan responder a una pregunta de investigación relevante. Como ejemplos de puntos de partida, pero no limitantes, compartimos las siguientes preguntas Inspiradoras:
+El principal objetivo es reconocer el valor de la información generada durante los procesos de atención de los pacientes en Cuidados Intensivos y la importancia del análisis de registros de datos estandarizados y multicéntricos para generar conocimiento. Para lograrlo, se espera que los participantes puedan responder a una pregunta de investigación relevante. 
+
+Como ejemplos de puntos de partida, pero no limitantes, compartimos las siguientes **Preguntas Inspiradoras**:
 
 + ¿Cuál es la evolución de los pacientes  adolescentes / adultos jóvenes en UCI o UCIP? (Menores de 20 años en UCI vs. Mayores de 14 años en UCIP)
 + ¿Cómo son los pacientes que requieren Cuidados Intermedios o tercer nivel post UCI o UCIP?  
-+ ¿Es el reingreso a la UCI- UCIP un factor pronóstico de mala evolución? ¿ Cuáles son sus factores de riesgo?
++ ¿El reingreso a la UCI- UCIP es un factor pronóstico de mala evolución? ¿ Cuáles son sus factores de riesgo?
 + ¿El género es un factor que afecta los resultados en UCIP / UCI?
 + ¿Por Qué una mujer joven requiere Cuidados Intensivos? ¿Son distintas las causas de ingreso a las de los hombres?
 + Uso de dispositivos en UCI y UCIP: ¿Existen diferencias entre  el grado de invasión de niños y adultos críticamente enfermos?
@@ -21,10 +23,12 @@ El principal objetivo es reconocer el valor de la información generada durante 
 + ¿Podemos predecir la infección asociada a dispositivos en el paciente crítico?
 
 ## CONTEXTO:🏥 ⚕️
-El Programa de Calidad SATI- Q es una **red multicéntrica de registro prospectivo y permanente de indicadores de calidad (Quality Benchmarking) en Unidades de Cuidados Intensivos de Argentina**, llevado adelante por la Sociedad Argentina de Terapia Intensiva (SATI). Las Unidades participan enviando voluntariamente sus registros en forma anónima y estandarizada. También disponen de un soporte informático de distribución libre, el Software SATI-Q, que permite el uso integrado a la práctica asistencial y la generación de informes personalizables. 
-> Para mas información: https://www.satiq.net.ar/
+El Programa de Calidad SATI- Q es una **red multicéntrica de registro prospectivo y permanente de indicadores de calidad (Quality Benchmarking) en Unidades de Cuidados Intensivos de Argentina**, llevado adelante por la Sociedad Argentina de Terapia Intensiva (SATI). 
+El Programa es voluntario y abierto para UCI y UCIP con distinto nivel de complejidad e infraestructura,  tanto del ámbito público como privado. Las Unidades participan enviando los registros de internaciones en forma anónima y estandarizada una vez por año. Para el registro de datos , disponen de un soporte informático de distribución libre, el Software SATI-Q, que permite la generación de informes automátizados y se encuentra adaptado en la practica diaria y asistencial. 
+> Para mas información pueden consultar la página web del Programa : https://www.satiq.net.ar/
   
 Los datos que forman parte de este desafío son una muestra anonimizada y curada de la base de datos SATI-Q con registros de pacientes adultos y pediátricos internados en las Unidades participantes en el Programa.
+Los registros comprenden datos de egresos entre 1-1-2002 y 31-12-2022. La base de datos pediátrica contiene egresos entre 1-1-2005 y el 31-12-2022
 
 ## PRERREQUISITOS: :hammer_and_wrench:
 Todos los miembros del equipo deben haber firmado [el acuerdo de confidencialidad y uso de datos:](https://forms.gle/GqhdWrTAu9a9hVhi7)
@@ -35,8 +39,7 @@ Para el análisis de los datos se recomienda utilizar alguna de las siguientes p
 + Google Collab: https://colab.research.google.com/?hl=es
 
 ## PRESENTACIÓN DE RESULTADOS:📑
-	**REVISAR Y CONFIRMAR CON ORGANIZACION DATA+LAB 2023**
-+ Por equipo, realizar una presentación de no más de 5 diapositivas, para exponer en no más de 5 minutos. Pueden descargar un *template modelo* para utilizar desde [AQUI](https://docs.google.com/presentation/d/1ifhpMzLD_AxdloG18gg8UqpvwOgekhl-/)
++ Se espera que cada equipo, realice una presentación de no más de 5 diapositivas, para exponer en no más de 5 minutos. Pueden descargar un *template modelo* para utilizar desde [AQUI](https://docs.google.com/presentation/d/1ifhpMzLD_AxdloG18gg8UqpvwOgekhl-/)
 + Compartir los códigos fuentes generados en el GITHUB del desafio SATI-Q, dentro de la carpeta correspondiente a cada equipo. 
 
 ## ESTRUCTURA DE DATOS: :card_index:
@@ -77,5 +80,9 @@ A continuación presentamos la descripción de cada tabla / archivo CSV del *DES
 | **FISOFA**  | Contiene las variables necesarias para construir el puntaje SOFA. Se trata de un puntaje para evaluar el fallo orgánico en UCI. Se registran los valores más anomalos de cada dia. | **(SOLO ADULTOS)** |
 
 ## BIBLIOGRAFIA COMPLEMENTARIA 📚
+
+Libro Análisis Secundario de Historias Clínicas Electrónicas
+Pueden descargarlo de https://www.hardineros.ar/analisis-secundario-de-historias-clinicas-electronicas
+
 
 ## EJEMPLOS DE CODIGO Y MATERIAL AUXILIAR 🧰
