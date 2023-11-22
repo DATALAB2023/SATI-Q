@@ -55,7 +55,7 @@ Dentro de este *REPOSITORIO*, se disponen dos carpetas que incluyen las tablas p
 
 ### ÍNDICE RÁPIDO DE TABLAS EN SATI-Q: 	:pushpin:
 
-A continuación presentamos la descripción de cada tabla / archivo CSV del *DESAFIO SATI-Q*, incluyendo los códigos internos relacionados. Estos códigos internos se presentan en tambien en su respectiva carpeta y además están referenciados dentro del diccionario de datos.
+A continuación presentamos la descripción de cada tabla / archivo CSV del *DESAFIO SATI-Q*, incluyendo los códigos internos relacionados. Estos códigos internos se presentan también en su respectiva carpeta y además están referenciados dentro del diccionario de datos.
 
 | Tablas de Datos  | Descripción | Códigos internos |
 | ------------- | ------------- | :-------------: |
