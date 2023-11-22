@@ -1,6 +1,6 @@
-![LOGO DATATHON BA 2023 ICO](https://github.com/DATALAB2023/SATI-Q/assets/148904526/ff185c75-a59c-4d94-a4dd-2622d31d8fa0)
+![LOGO DATATHON BA 2023 ICO](Banner.datathon.JPG)
 
-# ![LOGO CUADRADO SATIQ ICO](https://github.com/DATALAB2023/SATI-Q/assets/148904526/d67eeb09-d63c-40d3-87d2-71c903c134c1) DESAFIO DATATHON: SATI-Q 
+# DESAFIO DATATHON: SATI-Q 
 *SATI-Q 20 AÑOS: Analicemos juntos 2 décadas de datos de cuidados intensivos en Argentina*
 
 ## DESCRIPCIÓN:📊
@@ -76,5 +76,6 @@ A continuación presentamos la descripción de cada tabla / archivo CSV del *DES
 | **FIPELOD**  | Contiene las variables necesarias para construir el puntaje Pelod 1. Se trata de un puntaje para evaluar el fallo orgánico en UCIP. Se registran los valores más anomalos de cada dia. | **(SOLO PEDIÁTRICOS)** |
 | **FISOFA**  | Contiene las variables necesarias para construir el puntaje SOFA. Se trata de un puntaje para evaluar el fallo orgánico en UCI. Se registran los valores más anomalos de cada dia. | **(SOLO ADULTOS)** |
 
-## ALGUNA BIBLIOGRAFIA COMPLEMENTARIA 📚
+## BIBLIOGRAFIA COMPLEMENTARIA 📚
+
 ## EJEMPLOS DE CODIGO Y MATERIAL AUXILIAR 🧰
