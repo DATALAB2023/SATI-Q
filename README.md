@@ -106,6 +106,10 @@ Libreriás de Phyton más utilizadas en Ciencia de datos y documentación:
 6- Scikit learn.[https://scikit-learn.org/stable/]. Libreria para aprendizaje automático ( regresión, clasificación, clustering, preprocesamiento, etc)
 
 En esta [Carpeta](https://drive.google.com/drive/folders/1qggMSZA0SFlRhgMZZuq3JVB8HD6a_0FL?usp=drive_link)
-encontrarás ejemplos de código para realizar exploración , limpieza y manipulación de los datos 
+encontrarás ejemplos de código para realizar exploración , limpieza y manipulación de los datos y mucho más
+
+1- DESAFIO_SATI_Q.ipynb : notebook en phyton que contiene código para leer , explorar , limpiar datos, crear variables ,etc
+2- Archivo convert.js : script para unificar filas. Leer  el archivo convertjs_instrucciones.txt para ver cómo funciona. La tabla para usar en este ejemplo es FiPracticaCVC.csv
+
 
  
