@@ -23,11 +23,11 @@ Como ejemplos de puntos de partida, pero no limitantes, compartimos las siguient
 + ¿Podemos predecir la infección asociada a dispositivos en el paciente crítico?
 
 ## ¿COMO RESOLVER LOS DESAFIOS? :nerd_face:
-+ Definir la pregunta de interés para el grupo: Justificarla con búsqueda bibliográfica y conocimiento de expertos
-+ Definir las variables necesarias para responderla: Conocimiento de los expertos- búsqueda bibliográfica
-+ Revisar Diccionario de Datos y Definir las tablas y/o campos de interés: Con ayuda de los mentores
-+ Definir la herramienta: R-Phyton-SQL-MSExcel, de acuerdo al expertise de los integrantes
-+ Definir el método que se usará para resolver el desafío: Estadística descriptiva-Análisis multivariados-Modelos de aprendizaje Automático Supervisados o No Supervisados-etc.
++ **Definir la pregunta de interés para el grupo:** Justificarla con búsqueda bibliográfica y conocimiento de expertos
++ **Definir las variables necesarias para responderla:** Conocimiento de los expertos- búsqueda bibliográfica
++ **Revisar Diccionario de Datos y Definir las tablas y/o campos de interés:** Con ayuda de los mentores
++ **Definir la herramienta:** R-Phyton-SQL-MSExcel, de acuerdo al expertise de los integrantes
++ **Definir el método que se usará para resolver el desafío:** Estadística descriptiva-Análisis multivariados-Modelos de aprendizaje Automático Supervisados o No Supervisados-etc.
 
 ## CONTEXTO:🏥 ⚕️
 El Programa de Calidad SATI- Q es una **red multicéntrica de registro prospectivo y permanente de indicadores de calidad (Quality Benchmarking) en Unidades de Cuidados Intensivos de Argentina**, llevado adelante por la Sociedad Argentina de Terapia Intensiva (SATI). 
