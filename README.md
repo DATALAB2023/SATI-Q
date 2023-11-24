@@ -22,6 +22,13 @@ Como ejemplos de puntos de partida, pero no limitantes, compartimos las siguient
 + Guardia vs Sala : ¿la procedencia afecta la evolución de los pacientes en UCI / UCIP?
 + ¿Podemos predecir la infección asociada a dispositivos en el paciente crítico?
 
+## ¿COMO RESOLVER LOS DESAFIOS?
+Definir la pregunta de interés para el grupo: Justificarla con búsqueda bibliográfica y conocimiento de expertos
+Definir las variables necesarias para responderla: Conocimiento de los expertos- búsqueda bibliográfica
+Revisar Diccionario de Datos y Definir las tablas y/o campos de interés: Con ayuda de los mentores
+Definir la herramienta: R-Phyton-SQL-MSExcel, de acuerdo al expertise de los integrantes
+Definir el método que se usará para resolver el desafío: Estadística descriptiva-Análisis multivariados-Modelos de aprendizaje Automático Supervisados o No Supervisados-etc.
+
 ## CONTEXTO:🏥 ⚕️
 El Programa de Calidad SATI- Q es una **red multicéntrica de registro prospectivo y permanente de indicadores de calidad (Quality Benchmarking) en Unidades de Cuidados Intensivos de Argentina**, llevado adelante por la Sociedad Argentina de Terapia Intensiva (SATI). 
 El Programa es voluntario y abierto para UCI y UCIP con distinto nivel de complejidad e infraestructura,  tanto del ámbito público como privado. Las Unidades participan enviando los registros de internaciones en forma anónima y estandarizada una vez por año. Para el registro de datos , disponen de un soporte informático de distribución libre, el Software SATI-Q, que permite la generación de informes automátizados y se encuentra adaptado en la practica diaria y asistencial. 
