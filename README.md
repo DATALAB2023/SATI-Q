@@ -22,7 +22,7 @@ Como ejemplos de puntos de partida, pero no limitantes, compartimos las siguient
 + Guardia vs Sala : ¿la procedencia afecta la evolución de los pacientes en UCI / UCIP?
 + ¿Podemos predecir la infección asociada a dispositivos en el paciente crítico?
 
-## ¿COMO RESOLVER LOS DESAFIOS?
+## ¿COMO RESOLVER LOS DESAFIOS? :nerd_face:
 + Definir la pregunta de interés para el grupo: Justificarla con búsqueda bibliográfica y conocimiento de expertos
 + Definir las variables necesarias para responderla: Conocimiento de los expertos- búsqueda bibliográfica
 + Revisar Diccionario de Datos y Definir las tablas y/o campos de interés: Con ayuda de los mentores
