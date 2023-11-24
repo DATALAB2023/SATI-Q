@@ -41,7 +41,7 @@ Para el análisis de los datos se recomienda utilizar alguna de las siguientes p
 
 ## PRESENTACIÓN DE RESULTADOS:📑
 + Se espera que cada equipo, realice una presentación de no más de 5 diapositivas, para exponer en no más de 5 minutos. Pueden descargar un *template modelo* para utilizar desde [AQUI](https://docs.google.com/presentation/d/1ifhpMzLD_AxdloG18gg8UqpvwOgekhl-/)
-+ Compartir los códigos fuentes generados en el GITHUB del desafio SATI-Q, dentro de la carpeta correspondiente a cada equipo. 
++ Compartir los códigos fuentes generados, dentro de la carpeta correspondiente a cada equipo. 
 
 ## ESTRUCTURA DE DATOS: :card_index:
 La base de datos SATI-Q (adultos y pediátrica) está compuesta de 2 tipos de tablas: 
