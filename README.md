@@ -115,10 +115,14 @@ Autores: Leo A Celi - MIT CRITICAL DATA; Equipo de traducción dirigido por Arie
 
 6- Scikit learn.[https://scikit-learn.org/stable/]. Libreria para aprendizaje automático ( regresión, clasificación, clustering, preprocesamiento, etc)
 
-**Recursos utiles en R**. [https://posit.co/resources/cheatsheets/]
+**Recursos utiles en R**
+
+Web:[https://posit.co/resources/cheatsheets/]
+
+Cheatsheets: [https://drive.google.com/drive/folders/1vijBi5psL11XiHCyP2IkLW5DzxmeMDi_?usp=sharing]
 
 En esta [Carpeta](https://drive.google.com/drive/folders/1qggMSZA0SFlRhgMZZuq3JVB8HD6a_0FL?usp=drive_link)
-encontrarás ejemplos de código para realizar exploración , limpieza y manipulación de los datos y mucho más
+encontrarás **Ejemplos de código** para realizar exploración , limpieza y manipulación de los datos y mucho más
 
 1- DESAFIO_SATI_Q.ipynb : notebook en phyton que contiene código para leer , explorar , limpiar datos, crear variables ,etc
 
