@@ -115,6 +115,8 @@ Libreriás de Phyton más utilizadas en Ciencia de datos y documentación:
 
 6- Scikit learn.[https://scikit-learn.org/stable/]. Libreria para aprendizaje automático ( regresión, clasificación, clustering, preprocesamiento, etc)
 
+**Recursos utiles en R**. [https://posit.co/resources/cheatsheets/]
+
 En esta [Carpeta](https://drive.google.com/drive/folders/1qggMSZA0SFlRhgMZZuq3JVB8HD6a_0FL?usp=drive_link)
 encontrarás ejemplos de código para realizar exploración , limpieza y manipulación de los datos y mucho más
 
