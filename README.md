@@ -101,7 +101,7 @@ Autores: Leo A Celi - MIT CRITICAL DATA; Equipo de traducción dirigido por Arie
 
 ## EJEMPLOS DE CÓDIGO Y MATERIAL AUXILIAR 🧰
 
-Libreriás de Phyton más utilizadas en Ciencia de datos y documentación: 
+**Libreriás de Phyton más utilizadas en Ciencia de datos y documentación**: 
 
 1-Pandas [https://pandas.pydata.org/docs/user_guide/index.html ]. Libreria de manipulación y análisis de datos estructurados
 
