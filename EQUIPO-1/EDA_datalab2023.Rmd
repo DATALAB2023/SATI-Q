@@ -1,0 +1,254 @@
+```{r}
+library(dlookr)
+library(ggplot2)
+library(lubridate)
+```
+
+# Lecutra de la base de datos
+```{r}
+FiVarApa_1 = read.csv("../data/1_FiVarApa_1.csv")
+FiVarApa_2 = read.csv("../data/2_FiVarApa_2.csv")
+FiVarApa_3 = read.csv("../data/3_FiVarApa_3.csv")
+FiMotingD_Antecedentes = read.csv("../data/4_FiMotingD_Antecedentes.csv")
+FiMotingD_Principal = read.csv("../data/5_FiMotingD_Principal.csv")
+FiMotingD_Diagnostico = read.csv("../data/6_FiMotingD_Diagnostico.csv")
+FiMotingP = read.csv("../data/7_FiMotingP.csv")
+FiPracticaARM = read.csv("../data/8_FiPracticaARM.csv")
+FiPracticaCVC = read.csv("../data/9_FiPracticaCVC.csv")
+FiPracticaFoley = read.csv("../data/10_FiPracticaFoley.csv")
+FiEvolUti = read.csv("../data/11_FiEvolUti.csv")
+FiCompUti = read.csv("../data/12_FiCompUti.csv")
+FiProc = read.csv("../data/13_FiProc.csv")
+FiSAPSII = read.csv("../data/14_FiSAPSII.csv")
+FiSofa = read.csv("../data/15_FiSofa.csv")
+
+FiVarApa <- rbind(FiVarApa_1, FiVarApa_2)
+```
+
+# Dominio Demografico
+## Número de pacientes
+```{r}
+FiVarApa |>
+  dplyr::group_by(DNI) |>
+  dplyr::summarize(num_pacientes = dplyr::n_distinct(DNI)) |>
+  dplyr::pull(num_pacientes) |>
+  sum()
+```
+## Cantidad de hospitalizaciones
+```{r}
+FiVarApa |>
+  dplyr::count()
+```
+## Sexo
+```{r}
+FiVarApa |>
+  dlookr::diagnose_category(SEXO)
+
+FiVarApa |>
+  dlookr::diagnose_category(SEXO) |>
+  dplyr::select(-N, -rank) |>
+  dplyr::mutate(levels = forcats::fct_relevel(levels, "M", "F")) |>
+  ggplot(aes(x = 1, y = ratio, fill = levels)) + 
+  geom_bar(stat = "identity", width = 1) +
+  geom_text(aes(label = paste0(round(ratio, digits = 1), "%"), group = levels),
+            position = position_stack(vjust = 0.5),
+            color = "white") +
+  coord_polar("y", start = 0) +
+  theme_void() +
+  theme(plot.title=element_text(size=10)) +
+  scale_fill_manual(values = c("M" = "#004594", "F" = "#990359")) +
+  labs(
+    title = "Proporción de la variable sexo en la población",
+    fill = "Sexo")
+``` 
+## Edad al ingreso
+```{r}
+FiVarApa |>
+  dplyr::select(EDAD) |>
+  #dplyr::filter(EDAD < 18) |>
+  ggplot(aes(x = EDAD)) +
+  geom_histogram(stat = "count", fill = "#009c9d") +
+  theme_minimal() +
+  labs(x = "Edad", y = "Frecuencia")
+
+FiVarApa |>
+  d
+  dlookr::diagnose_numeric(EDAD)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# FiVarApa_1
+Tabla principal para todos los pacientes (adultos y pediátricos). Contiene un resúmen de la evolución del paciente, datos demográficos, procedencia, uso de dispositivos, estadía y resultados. Cada fila / registro representa a una única internación. Además almacena el Puntaje APACHE II en los pacientes adultos.
+```{r}
+dlookr::overview(FiVarApa_1)
+```
+```{r}
+library(lubridate)
+
+FiVarApa_1 |>
+  dlookr::diagnose()
+
+# Distribución de los años de ingreso
+FiVarApa_1 |>
+  dplyr::mutate(FECING = dmy(FECING), FECEGR = dmy(FECEGR)) |>
+  dplyr::mutate(LOS = FECEGR - FECING) |>
+  dplyr::mutate(LOS = as.integer(gsub(" days", "", LOS))) |>
+  dplyr::select(LOS) |>
+  ggplot(aes(x = LOS)) +
+  geom_histogram(bins = 20)
+
+FiVarApa_1 |>
+  dplyr::mutate(FECING = dmy(FECING), FECEGR = dmy(FECEGR)) |>
+  dplyr::mutate(LOS = FECEGR - FECING) |>
+  dplyr::mutate(LOS = as.integer(gsub(" days", "", LOS))) |>
+  dplyr::select(LOS) |>
+  dlookr::diagnose_numeric()
+
+FiVarApa_1 |>
+  dplyr::mutate(FECING = dmy(FECING), FECEGR = dmy(FECEGR)) |>
+  dplyr::mutate(LOS = FECEGR - FECING) |>
+  dplyr::select(LOS) |>
+  dplyr::group_by(LOS) |>
+  dplyr::summarize(freq = n()) |>
+  dplyr::arrange(desc(freq))
+  
+  
+  dplyr::mutate(LOS = as.factor(gsub(" days", "", LOS))) |>
+  dlookr::diagnose_category(LOS)
+
+#############
+FiVarApa_1 |>
+  dplyr::select(FECING) |>
+  dplyr::mutate(ANIO = year(dmy(FECING))) |>
+  ggplot(aes(x = ANIO)) +
+  geom_histogram()
+
+# Distribución de 
+FiVarApa_1 |>
+  dplyr::select(FECING) |>
+  dplyr::mutate(ANIO = year(dmy(FECING))) |>
+  ggplot(aes(x = ANIO)) +
+  geom_histogram()
+```
+```{r}
+# Edad al ingreso
+FiVarApa_1 |>
+  dplyr::select(EDAD) |>
+  dplyr::filter(EDAD < 18) |>
+  ggplot(aes(x = EDAD)) +
+  geom_histogram()
+
+FiVarApa_1 |>
+  dlookr::diagnose_numeric(EDAD)
+
+FiVarApa_1 |>
+  dplyr::filter(EDAD < 18) |>
+  ggplot(aes(x = EDAD)) +
+  geom_histogram()
+
+# Procedencias
+procedencia_values <- c(
+  "Seleccionar",
+  "Guardia",
+  "Sector de clínica",
+  "Sala de Parto",
+  "Piso Otro Hospital",
+  "UTI Otro Hospital",
+  "Terapia Intermedia",
+  "Sector de cirugía",
+  "Vía pública",
+  "Unidad coronaria",
+  "Quirófano Programado",
+  "Quirófano de Urgencia",
+  "Otra",
+  "Atención Domiciliaria - Homecare",
+  "Guardia Otro Hospital"
+)
+
+df <- data.frame(ID = factor(0:(length(procedencia_values) - 1)), PROCEDENCIA = procedencia_values)
+
+FiVarApa_1 |>
+  dplyr::mutate(PROCEDENCIA = as.factor(PROCEDENCIA)) |>
+  dlookr::diagnose_category(PROCEDENCIA) |>
+  dplyr::left_join(df, by = c("levels" = "ID"))
+
+FiVarApa_1 |>
+  dplyr::select(TIPO) |>
+  diagnose_numeric() |
+
+```
+
+```{r}
+FiMotingP |>
+  dlookr::diagnose_category(PATING)
+```
+
+
+
+Piso = 1
+Fallecen = 5
+INTERMEDIA = 6, 9, 11
+
+```{r}
+# Edad
+FiVarApa |>
+  dplyr::filter(RESTRAT %in% c(6,9,11)) |>
+  dlookr::diagnose_numeric(EDAD)
+
+# Apache
+FiVarApa |>
+  dplyr::filter(RESTRAT %in% c(6,9,11)) |>
+  dlookr::diagnose_numeric(SCOREAPA)
+
+# Motivo ingreso CI
+FiVarApa |>
+  dplyr::filter(RESTRAT %in% c(6,9,11)) |>
+  dplyr::select(TIPODNI, DNI, FECING) |>
+  dplyr::right_join(FiMotingP, by = c("TIPODNI", "DNI", "FECING")) |>
+  dlookr::diagnose_category(PATING)
+
+# Motivo ingreso Fallecen
+FiVarApa |>
+  dplyr::filter(RESTRAT == 5) |>
+  dplyr::select(TIPODNI, DNI, FECING) |>
+  dplyr::left_join(FiMotingP, by = c("TIPODNI", "DNI", "FECING")) |>
+  dlookr::diagnose_category(PATING)
+
+
+FiVarApa |>
+  dplyr::filter(RESTRAT %in% c(6,9,11)) |>
+  dplyr::select(DNI, FECING) |>
+  dplyr::inner_join(FiMotingP, by = c("DNI", "FECING"))
+
+FiMotingP %>%
+  filter(DNI %in% FiVarApa_filtered$DNI, FECING %in% FiVarApa_filtered$FECING)
+
+dplyr::j
+
+FiVarApa |> dplyr::filter(DNI == "@3E7AI0VNKIVAJ000002")
+
+
+FiMotingP |>
+  dplyr::inner_join(FiMotingP, FiVarApa, by = c("DNI"))
+
+
+
+```
+
+
